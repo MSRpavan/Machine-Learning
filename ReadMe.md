@@ -1,4 +1,4 @@
-# Predicting Heart Disease Patients with Machine Learning
+# Predicting Heart Disease Patients using Machine Learning
 
 This project aims to predict the likelihood of heart disease in patients using various classification machine learning models. The models used include K-Nearest Neighbors (KNN), Logistic Regression, and Random Forest Classifier. The dataset used in this project contains information about patients' age, sex, chest pain type, heart rate, cholesterol levels, and so on , the presence or absence of heart disease (target variable).
 
