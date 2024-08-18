@@ -1,41 +1,71 @@
-# Hand Written Digits Recognition using ANN on MNIST
+# FashionMNIST Classification using ANN
 
-This project aims to predict the likelihood of heart disease in patients using various classification machine learning models. The models used include K-Nearest Neighbors (KNN), Logistic Regression, and Random Forest Classifier. The dataset used in this project contains information about patients' age, sex, chest pain type, heart rate, cholesterol levels, and so on , the presence or absence of heart disease (target variable).
+This project aims to classify images of clothing items from the FashionMNIST dataset using an Artificial Neural Network (ANN). The model is built with three dense layers and is optimized using the Adam optimizer. The primary goal is to achieve high accuracy in classifying the images into one of the 10 fashion categories.
 
 ## Dataset
 
-The dataset used in this project contains the following columns:
+The FashionMNIST dataset is a widely used benchmark for image classification. It contains 60,000 training images and 10,000 test images, each of 28x28 pixels, representing 10 different clothing categories:
 
-- `age`: Age of the patient
-- `sex`: Gender of the patient (0: female, 1: male)
-- `chest pain`: Type of chest pain experienced by the patient (0: typical angina, 1: atypical angina, 2: non-anginal pain, 3: asymptomatic)
-- `heart rate`: Heart rate of the patient
-- `cholesterol`: Cholesterol levels of the patient and some other as slope , thalach..so on.
-- `target`: Presence or absence of heart disease (0: no heart disease, 1: heart disease)
+- 0: T-shirt/top
+- 1: Trouser
+- 2: Pullover
+- 3: Dress
+- 4: Coat
+- 5: Sandal
+- 6: Shirt
+- 7: Sneaker
+- 8: Bag
+- 9: Ankle boot
 
-## Data Preprocessing
+Each image is grayscale, resulting in 784 features (28x28 pixels) per image.
 
-Before building the machine learning models, the dataset underwent preprocessing steps such as handling missing values, encoding categorical variables, and scaling numerical features. Additionally, hyperparameters were tuned to optimize the performance of the models.
+## Model Architecture
 
-## Models Used
+The ANN model used in this project consists of the following layers:
 
-Three classification models were employed in this project:
+- **Input Layer**: 784 neurons (28x28 pixel values)
+- **Hidden Layer 1**: 500 neurons with ReLU activation
+- **Hidden Layer 2**: 500 neurons with ReLU activation
+- **Hidden Layer 3**: 500 neurons with ReLU activation
+- **Output Layer**: 10 neurons (one for each clothing category) with softmax activation
 
-1. **K-Nearest Neighbors (KNN)**: A non-parametric algorithm that classifies a data point based on the majority class of its k nearest neighbors.
-2. **Logistic Regression**: A linear model used for binary classification tasks, which predicts the probability of a binary outcome.
-3. **Random Forest Classifier**: An ensemble learning method that constructs a multitude of decision trees during training and outputs the mode of the classes as the prediction.
+### Hyperparameters:
 
-## Evaluation
+- **Loss Function**: Cross Entropy Loss
+- **Optimizer**: Adam
+- **Input Size**: 784
+- **Hidden Size**: 500
+- **Number of Classes**: 10
+- **Number of Epochs**: 10
+- **Batch Size**: 32
+- **Learning Rate**: 0.001
 
-The performance of each model was evaluated using metrics such as accuracy, precision, recall, and F1-score. Cross-validation techniques were employed to ensure robustness of the models' performance.
+## Training and Evaluation
+
+During training, the model's performance was evaluated on the training set, and the results were as follows:
+
+- **Minimum Training Loss**: 0.0807
+
+On the test set, the model achieved the following performance:
+
+- **Test Accuracy**: 88.22%
+
+These results indicate that the model is effective in classifying images of clothing items, though there is potential for further improvement through techniques such as hyperparameter tuning or model architecture adjustments.
 
 ## Requirements
 
+To run the code, ensure you have the following packages installed:
+
 - Python (>=3.6)
-- scikit-learn
-- pandas
-- matplotlib
+- PyTorch (for building the ANN)
 - numpy
+- matplotlib
+
+You can install the required packages using:
+
+```bash
+pip install torch numpy matplotlib
+
 
 ## Contributors
 
