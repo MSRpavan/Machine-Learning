@@ -75,8 +75,8 @@ python heart_disease_prediction.py
 <p>If you have any questions, feel free to reach out:</p>
 <ul>
     <!--<li><strong>Email</strong>: <a href="mailto:your-email@example.com">your-email@example.com</a></li>-->
-    <li><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/sitha-ram-pavan-meda-894a18294/">Your LinkedIn Profile</a></li>
-    <li><strong>GitHub</strong>: <a href="https://github.com/MSRpavan">yourusername</a></li>
+    <li><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/sitha-ram-pavan-meda-894a18294/">LinkedIn Profile</a></li>
+    <li><strong>GitHub</strong>: <a href="https://github.com/MSRpavan">GitHub</a></li>
 </ul>
 
 </body>
