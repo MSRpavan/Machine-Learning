@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Machine Learning and Deep Learning Projects</title>
 </head>
 <body>
 
@@ -25,21 +24,23 @@
 <h2 id="overview">Overview</h2>
 <p>This repository serves as a collection of my work in the field of machine learning and deep learning. It includes notebooks, scripts, and data related to various topics, such as:</p>
 <ul>
-    <li><strong>Supervised Learning</strong>: Linear Regression, Logistic Regression, Decision Trees, Random Forests, etc.</li>
-    <li><strong>Unsupervised Learning</strong>: K-Means Clustering, PCA, etc.</li>
-    <li><strong>Deep Learning</strong>: Neural Networks, CNNs, RNNs, LSTMs, GANs, etc.</li>
-    <li><strong>Natural Language Processing</strong>: Text classification, sentiment analysis, language models, etc.</li>
+    <li><strong>Supervised Learning</strong> etc.</li>
+    <li><strong>Unsupervised Learning</strong></li>
+    <li><strong>Deep Learning</strong></li>
+    <!-- <li><strong>Natural Language Processing</strong>: Text classification, sentiment analysis, language models, etc.</li>
     <li><strong>Reinforcement Learning</strong>: Q-Learning, DQN, Policy Gradients, etc.</li>
-    <li><strong>Other Advanced Topics</strong>: Transfer Learning, Hyperparameter Tuning, Model Interpretability, etc.</li>
+    <li><strong>Other Advanced Topics</strong>: Transfer Learning, Hyperparameter Tuning, Model Interpretability, etc.</li>  -->
 </ul>
 
 <h2 id="projects">Projects</h2>
 <p>Here are some of the key projects you'll find in this repository:</p>
 <ol>
     <li><strong>Predicting Heart Disease</strong>: A project focused on predicting the likelihood of heart disease using various machine learning models.</li>
-    <li><strong>Image Classification with CNNs</strong>: Implementation of Convolutional Neural Networks for classifying images from popular datasets like CIFAR-10 and MNIST.</li>
-    <li><strong>Sentiment Analysis with RNNs</strong>: Using Recurrent Neural Networks to analyze the sentiment of text data.</li>
-    <li><strong>Reinforcement Learning for Game AI</strong>: Applying Q-Learning and Deep Q-Networks to train an AI agent to play simple games.</li>
+    <li><strong>Image Classification with CNNs</strong>: Implementation of Convolutional Neural Networks for classifying images from popular datasets.</li>
+    <li><strong>Plant Disease Classification using ResNet-9</strong>:This project focuses on classifying plant diseases using images. Leveraging the ResNet-9 architecture.</li>
+    <li><strong>Predicting Digits using Autoencoder on MNIST</strong>:This project delves into the use of Autoencoders for digit recognition on the MNIST dataset. The goal is to compare the effectiveness of two distinct Autoencoder architectures—one based on fully connected (dense) layers and the other on Convolutional Neural Network (CNN) layers—in reconstructing and predicting handwritten digits.</li>
+    <!-- <li><strong>Sentiment Analysis with RNNs</strong>: Using Recurrent Neural Networks to analyze the sentiment of text data.</li>
+    <li><strong>Reinforcement Learning for Game AI</strong>: Applying Q-Learning and Deep Q-Networks to train an AI agent to play simple games.</li> -->
 </ol>
 <p>...and many more!</p>
 
@@ -73,9 +74,9 @@ python heart_disease_prediction.py
 <h2 id="contact">Contact</h2>
 <p>If you have any questions, feel free to reach out:</p>
 <ul>
-    <li><strong>Email</strong>: <a href="mailto:your-email@example.com">your-email@example.com</a></li>
-    <li><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/your-profile">Your LinkedIn Profile</a></li>
-    <li><strong>GitHub</strong>: <a href="https://github.com/yourusername">yourusername</a></li>
+    <!--<li><strong>Email</strong>: <a href="mailto:your-email@example.com">your-email@example.com</a></li>-->
+    <li><strong>LinkedIn</strong>: <a href="[https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/sitha-ram-pavan-meda-894a18294/)">Your LinkedIn Profile</a></li>
+    <li><strong>GitHub</strong>: <a href="[https://github.com/yourusername](https://github.com/MSRpavan)">yourusername</a></li>
 </ul>
 
 </body>
