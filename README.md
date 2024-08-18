@@ -24,7 +24,7 @@
 <h2 id="overview">Overview</h2>
 <p>This repository serves as a collection of my work in the field of machine learning and deep learning. It includes notebooks, scripts, and data related to various topics, such as:</p>
 <ul>
-    <li><strong>Supervised Learning</strong> etc.</li>
+    <li><strong>Supervised Learning</strong></li>
     <li><strong>Unsupervised Learning</strong></li>
     <li><strong>Deep Learning</strong></li>
     <!-- <li><strong>Natural Language Processing</strong>: Text classification, sentiment analysis, language models, etc.</li>
@@ -75,8 +75,8 @@ python heart_disease_prediction.py
 <p>If you have any questions, feel free to reach out:</p>
 <ul>
     <!--<li><strong>Email</strong>: <a href="mailto:your-email@example.com">your-email@example.com</a></li>-->
-    <li><strong>LinkedIn</strong>: <a href="[https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/sitha-ram-pavan-meda-894a18294/)">Your LinkedIn Profile</a></li>
-    <li><strong>GitHub</strong>: <a href="[https://github.com/yourusername](https://github.com/MSRpavan)">yourusername</a></li>
+    <li><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/sitha-ram-pavan-meda-894a18294/">Your LinkedIn Profile</a></li>
+    <li><strong>GitHub</strong>: <a href="https://github.com/MSRpavan">yourusername</a></li>
 </ul>
 
 </body>
