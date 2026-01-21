@@ -1,5 +1,4 @@
-# Predicting Heart Disease Patients using Machine Learning
-
+# Intelligent Data Analysis System for Predicting Heart Disease
 This project aims to predict the likelihood of heart disease in patients using various classification machine learning models. The models used include K-Nearest Neighbors (KNN), Logistic Regression, and Random Forest Classifier. The dataset used in this project contains information about patients' age, sex, chest pain type, heart rate, cholesterol levels, and so on , the presence or absence of heart disease (target variable).
 
 ## Dataset
@@ -23,7 +22,7 @@ Three classification models were employed in this project:
 
 1. **K-Nearest Neighbors (KNN)**: A non-parametric algorithm that classifies a data point based on the majority class of its k nearest neighbors.
 2. **Logistic Regression**: A linear model used for binary classification tasks, which predicts the probability of a binary outcome.
-3. **Random Forest Classifier**: An ensemble learning method that constructs a multitude of decision trees during training and outputs the mode of the classes as the prediction.
+3. **Random Forest Classifier**: An ensemble learning method that constructs a multitude of decision trees during training and outputs the mode of the classes as the prediction.(Predicting Heart Disease Patients using Machine Learning)
 
 ## Evaluation
 
